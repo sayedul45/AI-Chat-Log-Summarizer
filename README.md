@@ -25,6 +25,9 @@ AIChatLogSummarizer/
 │   ├── requirements.txt    # Frontend dependencies
 │   ├── static/             # Optional static files (CSS)
 │   └── components/         # Streamlit display components
+├── assets/                 # Screenshots for documentation
+│   ├── streamlit_ui.png
+│   └── fastapi_docs.png
 ├── docker-compose.yml      # Docker integration
 ├── sample_chat.txt         # Example input file
 ├── .gitignore
@@ -34,7 +37,7 @@ AIChatLogSummarizer/
 ---
 
 ## 🚀 Features
-- 📤 Upload chat logs (.txt)
+- 📄 Upload chat logs (.txt)
 - 🤖 Separate User and AI messages
 - 📊 Count total, user, and AI messages
 - 🔑 Extract top 5 most frequent keywords
@@ -109,7 +112,10 @@ pytest tests/
 ---
 
 ## 🖼️ Screenshots
-> (You can paste screenshots of the Streamlit app and API docs here for demo)
+
+### 🔸 Streamlit App UI
+![Streamlit UI](assets/streamlit_ui.png)
+
 
 ---
 
@@ -127,17 +133,5 @@ Summary:
 
 ## 📁 Sample File
 Use `sample_chat.txt` from the root directory to test the app.
-
----
-
-## 🧠 Future Enhancements
-- Download summary as .txt or .json
-- Word cloud visualization
-- Handle batch (multi-log) input
-- Add login and save user history
-- Support other languages (e.g., Bangla, Spanish)
-
-
-
 
 
